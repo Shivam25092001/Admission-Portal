@@ -1,4 +1,5 @@
 import { Form } from "antd";
+import { Typography } from 'antd';
 import "antd/dist/antd.css";
 import React, { useState, createContext } from 'react';
 import AcademicDetails from './Pages/AcademicDetails';
@@ -7,6 +8,7 @@ import DocumentUpload from './Pages/DocumentUpload';
 import PersonalDetails from './Pages/PersonalDetails';
 import { StepPanel } from './StepPanel';
 import "./pagination.css";
+const { Title } = Typography;
 
 
 
@@ -78,7 +80,7 @@ const Pagination = () => {
         current={current}
         onChange={onChange}
         items = {steps} /> */}
-
+        <Title level={2}>Student admission portal</Title>
         <Form form={stepForm} 
           name="basic"
           initialValues={{

@@ -1,5 +1,6 @@
 import React from 'react'
 import {Form, Radio, Button} from 'antd'
+import './DocumentUpload.module.css'
 
 const DocumentUpload = () => {
   return (
@@ -101,13 +102,9 @@ const DocumentUpload = () => {
       </Form.Item>
 
 
-      <Form.Item>
-        <Button type="primary" htmlType="submit">
-          Submit
-        </Button>
-      </Form.Item>
     </>
   )
+  
 }
 
 export default DocumentUpload

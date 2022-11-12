@@ -2,12 +2,46 @@
     min-height: 200px;
     margin-top: 16px;
     padding-top: 80px;
-    text-align: center;
+    text-align: left;
     background-color: #fafafa;
     border: 1px dashed #e9e9e9;
     border-radius: 2px;
+    margin: 5vw;
+    padding: 5vw;
   }
   
   .steps-action {
     margin-top: 24px;
+  }
+
+  Form{
+    color: red;
+  }
+  .ant-steps{
+    margin-top: 5vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+  .ant-steps-item-container{
+    width: 2%;
+  }
+  .ant-steps-item{
+    padding-left: 1vw;
+  }
+  .ant-steps{
+    width: auto;
+  }
+  .steps-action button{
+    margin-left: 50%;
+    margin-bottom: 5vh;
+  }
+  h2.ant-typography{
+    margin-left: 38%;
+    margin-top: 5vh;
+  }
+  .ant-form-item-control-input-content{
+    align-self: flex-start;
+  }
+  .ant-form-item-control-input-content{
+    padding-left: 5vw;
   }
